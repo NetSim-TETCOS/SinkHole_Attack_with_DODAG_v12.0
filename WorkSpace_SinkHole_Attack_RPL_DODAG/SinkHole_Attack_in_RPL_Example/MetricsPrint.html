@@ -1,0 +1,363 @@
+<!DOCTYPE html><html><head></head><body margin='0' padding='30px'>
+<p><b><i><font face='Times' color='#0E2E70' size='20'>STANDARD</font></i></b></p>
+<p><font face='Arial' color='#0E2E70' size='6'>12.0.18</font></p>
+<hr width='100%' style='border: 2px dashed #C0C0C0' color='#FFFFFF' size='0'>
+<p><font face='Arial' color='#0E2E70' size='6'>Experiment</font></p>
+<p><font face='Arial' color='#0E2E70' size='2'>2019/09/06 14:51:25</font></p>
+<hr width='100%' style='border: 2px dashed #C0C0C0' color='#FFFFFF' size='0'>
+<p style='margin-left:40px'><font face='Arial' color='#767779'>Table Of Contents</font></p>
+<p style='margin-left:80px'><a href='#Network Scenario'>Network Scenario</a></p>
+<p style='margin-left: 80px'><a href='#Link_Metrics'>Link_Metrics</a></p>
+<p style='margin-left: 80px'><a href='#Queue_Metrics'>Queue_Metrics</a></p>
+<p style='margin-left: 80px'><a href='#IP_Metrics'>IP_Metrics</a></p>
+<p style='margin-left: 80px'><a href='#IP_Forwarding_Table'>IP_Forwarding_Table</a></p>
+<p style='margin-left: 90px'><a href='#WIRELESS_NODE_1'>WIRELESS_NODE_1</a></p>
+<p style='margin-left: 90px'><a href='#WIRELESS_NODE_2'>WIRELESS_NODE_2</a></p>
+<p style='margin-left: 90px'><a href='#WIRELESS_NODE_3'>WIRELESS_NODE_3</a></p>
+<p style='margin-left: 80px'><a href='#UDP Metrics'>UDP Metrics</a></p>
+<p style='margin-left: 80px'><a href='#Application_Metrics'>Application_Metrics</a></p>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<h2 id='Network Scenario'>Network Scenario</h2>
+<img width=1250 alt=Thumbnails src=A_Scenario.png height=1000 />
+</br></br></br></br></br></br>
+<h2 id='Link_Metrics'>Link_Metrics</h2>
+<table  style='page-break-after: avoid border='3px solid black'  border-collapse='collapse'  width='98%'  cellspacing='0' cellpadding='1''>
+<thead>
+<tr  page-break-after:auto bgcolor='#191970'>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Link_id</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Link_throughput_plot</font></th>
+<th  colspan='2'><font face='Arial' color='#F0FFFF'>Packet_transmitted</font></th>
+<th  colspan='2'><font face='Arial' color='#F0FFFF'>Packet_errored</font></th>
+<th  colspan='2'><font face='Arial' color='#F0FFFF'>Packet_collided</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Bytes_transmitted(bytes)</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Payload_transmitted(bytes)</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Overhead_transmitted(bytes)</font></th>
+</tr>
+<tr bgcolor='#191970'>
+ <th colspan='1'><font face='Arial' color='#F0FFFF'>Data</font></th>
+ <th colspan='1'><font face='Arial' color='#F0FFFF'>Control</font></th>
+ <th colspan='1'><font face='Arial' color='#F0FFFF'>Data</font></th>
+ <th colspan='1'><font face='Arial' color='#F0FFFF'>Control</font></th>
+ <th colspan='1'><font face='Arial' color='#F0FFFF'>Data</font></th>
+ <th colspan='1'><font face='Arial' color='#F0FFFF'>Control</font></th>
+</tr>
+<tbody>
+<tr bgcolor='#FAFAFC'>
+<td><p><font face='Arial'>All</font></p></td>
+<td><p><font face='Arial'>NA</font></p></td>
+<td><p><font face='Arial'>5000</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+<td><p><font face='Arial'>7440000</font></p></td>
+<td><p><font face='Arial'>7300000</font></p></td>
+<td><p><font face='Arial'>140000</font></p></td>
+</tr>
+<tr bgcolor='#F2F2F5'>
+<td><p><font face='Arial'>1</font></p></td>
+<td><p><font face='Arial'>NA</font></p></td>
+<td><p><font face='Arial'>5000</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+<td><p><font face='Arial'>7440000</font></p></td>
+<td><p><font face='Arial'>7300000</font></p></td>
+<td><p><font face='Arial'>140000</font></p></td>
+</tr>
+</tbody>
+</thead>
+</table>
+</br>
+</br>
+</br>
+<h2 id='Queue_Metrics'>Queue_Metrics</h2>
+<table  style='page-break-after: avoid border='3px solid black'  border-collapse='collapse'  width='98%'  cellspacing='0' cellpadding='1''>
+<thead>
+<tr  page-break-after:auto bgcolor='#191970'>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Device_id</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Port_id</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Queued_packet</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Dequeued_packet</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Dropped_packet</font></th>
+</tr>
+<tbody>
+</tbody>
+</thead>
+</table>
+</br>
+</br>
+</br>
+<h2 id='IP_Metrics'>IP_Metrics</h2>
+<table  style='page-break-after: avoid border='3px solid black'  border-collapse='collapse'  width='98%'  cellspacing='0' cellpadding='1''>
+<thead>
+<tr  page-break-after:auto bgcolor='#191970'>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Device Id</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Packet sent</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Packet forwarded</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Packet received</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Packet discarded</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>TTL expired</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Firewall blocked</font></th>
+</tr>
+<tbody>
+<tr bgcolor='#FAFAFC'>
+<td><p><font face='Arial'>1</font></p></td>
+<td><p><font face='Arial'>5000</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+</tr>
+<tr bgcolor='#F2F2F5'>
+<td><p><font face='Arial'>2</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+</tr>
+<tr bgcolor='#FAFAFC'>
+<td><p><font face='Arial'>3</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+<td><p><font face='Arial'>5000</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+</tr>
+</tbody>
+</thead>
+</table>
+</br>
+</br>
+</br>
+<h2 id='IP_Forwarding_Table'>IP_Forwarding_Table</h2>
+<h2 id='WIRELESS_NODE_1'>WIRELESS_NODE_1</h2>
+<table  style='page-break-after: avoid border='3px solid black'  border-collapse='collapse'  width='98%'  cellspacing='0' cellpadding='1''>
+<thead>
+<tr  page-break-after:auto bgcolor='#191970'>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Network Destination</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Netmask/Prefix len</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Gateway</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Interface</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Metrics</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Type</font></th>
+</tr>
+<tbody>
+<tr bgcolor='#FAFAFC'>
+<td><p><font face='Arial'>11.1.0.0</font></p></td>
+<td><p><font face='Arial'>255.255.0.0</font></p></td>
+<td><p><font face='Arial'>on-link</font></p></td>
+<td><p><font face='Arial'>11.1.1.1 </font></p></td>
+<td><p><font face='Arial'>300</font></p></td>
+<td><p><font face='Arial'>LOCAL</font></p></td>
+</tr>
+<tr bgcolor='#F2F2F5'>
+<td><p><font face='Arial'>224.0.0.1</font></p></td>
+<td><p><font face='Arial'>255.255.255.255</font></p></td>
+<td><p><font face='Arial'>on-link</font></p></td>
+<td><p><font face='Arial'>11.1.1.1 </font></p></td>
+<td><p><font face='Arial'>306</font></p></td>
+<td><p><font face='Arial'>MULTICAST</font></p></td>
+</tr>
+<tr bgcolor='#FAFAFC'>
+<td><p><font face='Arial'>224.0.0.0</font></p></td>
+<td><p><font face='Arial'>240.0.0.0</font></p></td>
+<td><p><font face='Arial'>on-link</font></p></td>
+<td><p><font face='Arial'>11.1.1.1 </font></p></td>
+<td><p><font face='Arial'>306</font></p></td>
+<td><p><font face='Arial'>MULTICAST</font></p></td>
+</tr>
+<tr bgcolor='#F2F2F5'>
+<td><p><font face='Arial'>255.255.255.255</font></p></td>
+<td><p><font face='Arial'>255.255.255.255</font></p></td>
+<td><p><font face='Arial'>on-link</font></p></td>
+<td><p><font face='Arial'>11.1.1.1 </font></p></td>
+<td><p><font face='Arial'>999</font></p></td>
+<td><p><font face='Arial'>BROADCAST</font></p></td>
+</tr>
+</tbody>
+</thead>
+</table>
+</br>
+</br>
+</br>
+<h2 id='WIRELESS_NODE_2'>WIRELESS_NODE_2</h2>
+<table  style='page-break-after: avoid border='3px solid black'  border-collapse='collapse'  width='98%'  cellspacing='0' cellpadding='1''>
+<thead>
+<tr  page-break-after:auto bgcolor='#191970'>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Network Destination</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Netmask/Prefix len</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Gateway</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Interface</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Metrics</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Type</font></th>
+</tr>
+<tbody>
+<tr bgcolor='#FAFAFC'>
+<td><p><font face='Arial'>11.1.0.0</font></p></td>
+<td><p><font face='Arial'>255.255.0.0</font></p></td>
+<td><p><font face='Arial'>on-link</font></p></td>
+<td><p><font face='Arial'>11.1.1.2 </font></p></td>
+<td><p><font face='Arial'>300</font></p></td>
+<td><p><font face='Arial'>LOCAL</font></p></td>
+</tr>
+<tr bgcolor='#F2F2F5'>
+<td><p><font face='Arial'>224.0.0.1</font></p></td>
+<td><p><font face='Arial'>255.255.255.255</font></p></td>
+<td><p><font face='Arial'>on-link</font></p></td>
+<td><p><font face='Arial'>11.1.1.2 </font></p></td>
+<td><p><font face='Arial'>306</font></p></td>
+<td><p><font face='Arial'>MULTICAST</font></p></td>
+</tr>
+<tr bgcolor='#FAFAFC'>
+<td><p><font face='Arial'>224.0.0.0</font></p></td>
+<td><p><font face='Arial'>240.0.0.0</font></p></td>
+<td><p><font face='Arial'>on-link</font></p></td>
+<td><p><font face='Arial'>11.1.1.2 </font></p></td>
+<td><p><font face='Arial'>306</font></p></td>
+<td><p><font face='Arial'>MULTICAST</font></p></td>
+</tr>
+<tr bgcolor='#F2F2F5'>
+<td><p><font face='Arial'>255.255.255.255</font></p></td>
+<td><p><font face='Arial'>255.255.255.255</font></p></td>
+<td><p><font face='Arial'>on-link</font></p></td>
+<td><p><font face='Arial'>11.1.1.2 </font></p></td>
+<td><p><font face='Arial'>999</font></p></td>
+<td><p><font face='Arial'>BROADCAST</font></p></td>
+</tr>
+</tbody>
+</thead>
+</table>
+</br>
+</br>
+</br>
+<h2 id='WIRELESS_NODE_3'>WIRELESS_NODE_3</h2>
+<table  style='page-break-after: avoid border='3px solid black'  border-collapse='collapse'  width='98%'  cellspacing='0' cellpadding='1''>
+<thead>
+<tr  page-break-after:auto bgcolor='#191970'>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Network Destination</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Netmask/Prefix len</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Gateway</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Interface</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Metrics</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Type</font></th>
+</tr>
+<tbody>
+<tr bgcolor='#FAFAFC'>
+<td><p><font face='Arial'>11.1.0.0</font></p></td>
+<td><p><font face='Arial'>255.255.0.0</font></p></td>
+<td><p><font face='Arial'>on-link</font></p></td>
+<td><p><font face='Arial'>11.1.1.3 </font></p></td>
+<td><p><font face='Arial'>300</font></p></td>
+<td><p><font face='Arial'>LOCAL</font></p></td>
+</tr>
+<tr bgcolor='#F2F2F5'>
+<td><p><font face='Arial'>224.0.0.1</font></p></td>
+<td><p><font face='Arial'>255.255.255.255</font></p></td>
+<td><p><font face='Arial'>on-link</font></p></td>
+<td><p><font face='Arial'>11.1.1.3 </font></p></td>
+<td><p><font face='Arial'>306</font></p></td>
+<td><p><font face='Arial'>MULTICAST</font></p></td>
+</tr>
+<tr bgcolor='#FAFAFC'>
+<td><p><font face='Arial'>224.0.0.0</font></p></td>
+<td><p><font face='Arial'>240.0.0.0</font></p></td>
+<td><p><font face='Arial'>on-link</font></p></td>
+<td><p><font face='Arial'>11.1.1.3 </font></p></td>
+<td><p><font face='Arial'>306</font></p></td>
+<td><p><font face='Arial'>MULTICAST</font></p></td>
+</tr>
+<tr bgcolor='#F2F2F5'>
+<td><p><font face='Arial'>255.255.255.255</font></p></td>
+<td><p><font face='Arial'>255.255.255.255</font></p></td>
+<td><p><font face='Arial'>on-link</font></p></td>
+<td><p><font face='Arial'>11.1.1.3 </font></p></td>
+<td><p><font face='Arial'>999</font></p></td>
+<td><p><font face='Arial'>BROADCAST</font></p></td>
+</tr>
+</tbody>
+</thead>
+</table>
+</br>
+</br>
+</br>
+<h2 id='UDP Metrics'>UDP Metrics</h2>
+<table  style='page-break-after: avoid border='3px solid black'  border-collapse='collapse'  width='98%'  cellspacing='0' cellpadding='1''>
+<thead>
+<tr  page-break-after:auto bgcolor='#191970'>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Device id</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Local address</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Foreign address</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Datagram sent</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Datagram received</font></th>
+</tr>
+<tbody>
+<tr bgcolor='#FAFAFC'>
+<td><p><font face='Arial'>1</font></p></td>
+<td><p><font face='Arial'>11.1.1.1:82</font></p></td>
+<td><p><font face='Arial'>11.1.1.3:36934</font></p></td>
+<td><p><font face='Arial'>5000</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+</tr>
+<tr bgcolor='#F2F2F5'>
+<td><p><font face='Arial'>3</font></p></td>
+<td><p><font face='Arial'>11.1.1.3:36934</font></p></td>
+<td><p><font face='Arial'>11.1.1.1:82</font></p></td>
+<td><p><font face='Arial'>0</font></p></td>
+<td><p><font face='Arial'>5000</font></p></td>
+</tr>
+</tbody>
+</thead>
+</table>
+</br>
+</br>
+</br>
+<h2 id='Application_Metrics'>Application_Metrics</h2>
+<table  style='page-break-after: avoid border='3px solid black'  border-collapse='collapse'  width='98%'  cellspacing='0' cellpadding='1''>
+<thead>
+<tr  page-break-after:auto bgcolor='#191970'>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Application Id</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Application Name</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Source Id</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Destination Id</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Packet generated</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Packet received</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Payload generated (bytes)</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Payload received (bytes)</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Throughput (Mbps)</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Delay(microsec)</font></th>
+<th rowspan='2'><font face='Arial' color='#F0FFFF'>Jitter(microsec)</font></th>
+</tr>
+<tbody>
+<tr bgcolor='#FAFAFC'>
+<td><p><font face='Arial'>1</font></p></td>
+<td><p><font face='Arial'>App1_CBR</font></p></td>
+<td><p><font face='Arial'>1</font></p></td>
+<td><p><font face='Arial'>3</font></p></td>
+<td><p><font face='Arial'>5000</font></p></td>
+<td><p><font face='Arial'>5000</font></p></td>
+<td><p><font face='Arial'>7300000</font></p></td>
+<td><p><font face='Arial'>7300000</font></p></td>
+<td><p><font face='Arial'>0.584000</font></p></td>
+<td><p><font face='Arial'>995.273088</font></p></td>
+<td><p><font face='Arial'>533.306658</font></p></td>
+</tr>
+</tbody>
+</thead>
+</table>
+</br>
+</br>
+</br>
+</body></html>

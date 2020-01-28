@@ -1,0 +1,2 @@
+Data Path > C:\Users\Leepika\AppData\Roaming\NetSim\std12.0.18\GUIConfigurations\
+Can write file

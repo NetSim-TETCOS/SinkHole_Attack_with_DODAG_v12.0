@@ -1,0 +1,13 @@
+Start program >2019/09/11 10:48:53
+Data Path > C:\Users\Leepika\AppData\Roaming\NetSim\std12.0.18\GUIConfigurations\
+Start xml Reading loading >2019/09/11 10:48:53
+Start Plugin >2019/09/11 10:48:53
+Stop Plugin >2019/09/11 10:48:53
+Xml reading done >2019/09/11 10:48:53
+start  animation view >2019/09/11 10:48:54
+End animation view >2019/09/11 10:48:54
+Start Table view >2019/09/11 10:48:54
+End Table view >2019/09/11 10:48:54
+thread check  >2019/09/11 10:48:54
+Can write file
+END loading >2019/09/11 10:48:55

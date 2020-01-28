@@ -1,0 +1,42 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(438,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  DNS.c
+  ICMP.c
+G:\V12_Projects\SinkHole_Attack_in_RPL_v12.0\WorkSpace_SinkHole_Attack_RPL\src\Simulation\IP\ICMP.c(587,15): warning C4101:  'j': unreferenced local variable
+  IGMP.c
+  IGMP_Host.c
+  IGMP_Msg.c
+  IGMP_Router.c
+  IP.c
+  IP_Routing.c
+  IP_Utility.c
+  Multicast.c
+  NAT.c
+  PIM_Config.c
+  PIM_Group.c
+  PIM_Hello.c
+  PIM_Join.c
+  PIM_Msg.c
+  PIM_Neighbor.c
+  PIM_Print.c
+  PIM_Route.c
+  PIM_Route_Msg.c
+  Generating Code...
+  Compiling...
+  PIM_SM.c
+  VPN.c
+G:\V12_Projects\SinkHole_Attack_in_RPL_v12.0\WorkSpace_SinkHole_Attack_RPL\src\Simulation\IP\ICMP.c(587,12): warning C4101:  'i': unreferenced local variable
+G:\V12_Projects\SinkHole_Attack_in_RPL_v12.0\WorkSpace_SinkHole_Attack_RPL\src\Simulation\IP\ICMP.c(587,12): warning C4101: G:\V12_Projects\SinkHole_Attack_in_RPL_v12.0\WorkSpace_SinkHole_Attack_RPL\src\Simulation\IP\VPN.c(205) : Warning Msg: fn_NetSim_IP_VPN_GetIPFromServer needs to be implemented for IPV6
+  Generating Code...
+G:\V12_Projects\SinkHole_Attack_in_RPL_v12.0\WorkSpace_SinkHole_Attack_RPL\src\Simulation\IP\VPN.c(326,1): warning C4028:  formal parameter 1 different from declaration
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1264,5): warning MSB8012: TargetPath(G:\V12_Projects\SinkHole_Attack_in_RPL_v12.0\WorkSpace_SinkHole_Attack_RPL\src\Simulation\IP\..\..\..\bin\bin_x64\IP.dll) does not match the Linker's OutputFile property value (G:\V12_Projects\SinkHole_Attack_in_RPL_v12.0\WorkSpace_SinkHole_Attack_RPL\bin\bin_x64\libIP.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1266,5): warning MSB8012: TargetName(IP) does not match the Linker's OutputFile property value (libIP). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+DNS.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  IP.lib(IPLib.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+DNS.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     Creating library ..\..\..\bin\bin_x64\IP.lib and object ..\..\..\bin\bin_x64\IP.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+IP.lib(IPLib.obj) : warning LNK4099: PDB 'IPLib.pdb' was not found with 'IP.lib(IPLib.obj)' or at 'G:\V12_Projects\SinkHole_Attack_in_RPL_v12.0\WorkSpace_SinkHole_Attack_RPL\bin\bin_x64\IPLib.pdb'; linking object as if no debug info
+list.lib(List.obj) : warning LNK4099: PDB 'List.pdb' was not found with 'list.lib(List.obj)' or at 'G:\V12_Projects\SinkHole_Attack_in_RPL_v12.0\WorkSpace_SinkHole_Attack_RPL\bin\bin_x64\List.pdb'; linking object as if no debug info
+  IP.vcxproj -> G:\V12_Projects\SinkHole_Attack_in_RPL_v12.0\WorkSpace_SinkHole_Attack_RPL\src\Simulation\IP\..\..\..\bin\bin_x64\IP.dll

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<NETSIM_ANIMATION>
+ <!--NETSIM_ANIMATION-->
+ <MENU NAME="IP Table" isNewScreen="false">
+  <MENU NAME="6_LOWPAN_GATEWAY_1" isNewScreen="true" FileName="Animation_6_LOWPAN_GATEWAY_1.txt" Type="table"/>
+  <MENU NAME="ROUTER_2" isNewScreen="true" FileName="Animation_ROUTER_2.txt" Type="table"/>
+  <MENU NAME="WIRED_NODE_3" isNewScreen="true" FileName="Animation_WIRED_NODE_3.txt" Type="table"/>
+  <MENU NAME="WIRELESS_SENSOR_4" isNewScreen="true" FileName="Animation_WIRELESS_SENSOR_4.txt" Type="table"/>
+  <MENU NAME="WIRELESS_SENSOR_5" isNewScreen="true" FileName="Animation_WIRELESS_SENSOR_5.txt" Type="table"/>
+  <MENU NAME="WIRELESS_SENSOR_6" isNewScreen="true" FileName="Animation_WIRELESS_SENSOR_6.txt" Type="table"/>
+  <MENU NAME="WIRELESS_SENSOR_7" isNewScreen="true" FileName="Animation_WIRELESS_SENSOR_7.txt" Type="table"/>
+  <MENU NAME="WIRELESS_SENSOR_8" isNewScreen="true" FileName="Animation_WIRELESS_SENSOR_8.txt" Type="table"/>
+ </MENU>
+ <MENU NAME="Battery Power" isNewScreen="false">
+  <MENU NAME="WIRELESS_SENSOR_4_BatteryPower" isNewScreen="false" FileName="Animation_WIRELESS_SENSOR_4_BatteryPower.txt" Type="battery"/>
+  <MENU NAME="WIRELESS_SENSOR_5_BatteryPower" isNewScreen="false" FileName="Animation_WIRELESS_SENSOR_5_BatteryPower.txt" Type="battery"/>
+  <MENU NAME="WIRELESS_SENSOR_6_BatteryPower" isNewScreen="false" FileName="Animation_WIRELESS_SENSOR_6_BatteryPower.txt" Type="battery"/>
+  <MENU NAME="WIRELESS_SENSOR_7_BatteryPower" isNewScreen="false" FileName="Animation_WIRELESS_SENSOR_7_BatteryPower.txt" Type="battery"/>
+  <MENU NAME="WIRELESS_SENSOR_8_BatteryPower" isNewScreen="false" FileName="Animation_WIRELESS_SENSOR_8_BatteryPower.txt" Type="battery"/>
+ </MENU>
+ <MENU NAME="Node Movement" isNewScreen="false" FileName="Animation_Node_Movement.txt" Type="generic"/>
+ <MENU NAME="Transmit_packet" isNewScreen="false" FileName="Animation_Transmit_packet.txt" Type="generic"/>
+</NETSIM_ANIMATION>
